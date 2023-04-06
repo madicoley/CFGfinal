@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body></body>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <a href="index.html"><img src="LOGO.png" class="logo"></a>
+          </div>
+            <div class="col"></div>
+            <div class="col">
+              <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="drinks.html">Drinks</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="books.html">Books</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="homepage-text">
+            <h2 class="typewriter">Welcome to Read and Feed!</h2>
+            <br> 
+                <div class="picture-container">
+                  <div class="image-container">
+                    <a href="drinks.html">
+                      <img src="coffee1.jpg" alt="Drinks" class="image-homepage">
+                      <div class="overlay">
+                        <div class="overlay-text">Drinks</div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="team.html">
+                    <img src="Teamphoto.jpg" alt="Team" class="image-homepage">
+                    <div class="overlay">
+                      <div class="overlay-text">Team</div>
+                    </div>
+                  </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="books.html">
+                    <img src="books.jpg" alt="Books" class="image-homepage">
+                    <div class="overlay">
+                      <div class="overlay-text">Books</div>
+                    </div>
+                  </a>
+                  </div>
+                </div>
+            <br>
+            <br>
+            <div class="container_foot"> <!-- changed from container to remove background?-->
+              <div class="row">
+                <!-- div 2 for smaller cols spacing-->
+                <div class="col-md-2"></div>
+                <!-- end div-->
+                <div class="col-md-2"><!--change to not conflict later-->
+                  <div class="socials"><!--insta // this css changes background-->
+                    <a href="https://www.instagram.com/" target="_blank">
+                      <img src="Ig.webp" alt="IG" style="width:25%" class="invert">
+                    </a>
+                </div>
+                </div>
+                <!-- div 2 for smaller cols spacing-->
+                <div class="col-md-1"></div>
+                <!-- end div-->
+                <div class="col-md-2">
+                  <div class="socials">
+                    <a href="https://www.facebook.com/" target="_blank"> 
+                      <img src="fb.webp" alt="fb" style="width:25%" class="invert">
+                    </a>
+                   
+                  </div>
+                </div>
+                <!-- div 2 for smaller cols spacing-->
+                <div class="col-md-1"></div>
+                <!-- end div-->
+                <div class="col-md-2">
+                  <div class="socials">
+                    <a href="https://open.spotify.com/artist/2TLcflyspAHZaaNiq6oXzd" target="_blank"> <!--XXX - Link to cafe extension-->
+                      <img src="spot.webp" alt="spotify" style="width:25%" class="invert">
+                    </a>
+    
+          </div>
+
+          <div class="audio-player">
+            <div class="audio-title"> Coffee House Music </div>
+            <audio controls>
+              <source src="Coffee House Music.mp3" type="audio/mpeg">
+            </audio>
+            <div class="audio-controls">
+              <button class="play-btn"></button>
+              <button class="pause-btn"></button>
+              <div class="time">
+                <span class="current-time">0:00</span> 
+                <span class="duration">0:00</span>
+              </div>
+              <div class="volume">
+                <button class="mute-btn"></button>
+              </div>
+            </div>
+          </div>
+          
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+      // Optional: add a delay before starting the animation
+      setTimeout(function() {
+        // Get the text to animate
+        var text = document.querySelector('.typewriter');
+        // Set the text to be visible
+        text.style.display = 'inline-block';
+      }, 200000); // Change the delay time as needed
+    
+    </script>
+    </body>
+
+      <footer>
+       
+            
+                  
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+</html>
